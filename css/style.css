@@ -1,0 +1,87 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	font-family: 'Merriweather', serif;
+	color:#333;
+	overflow-y:scroll;
+}
+.content {
+	width:100%;
+	margin:0 auto;
+}
+.header {
+	margin:15px 0 30px 0;
+}
+.header h1 {
+  font-size: 4em;
+  font-weight: 100;
+  display: inline-block;
+  padding-right:20px;
+}
+#dad {
+	width:100%;
+}
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.menu li {
+		display: inline-block;
+    margin: 0px 4px;
+    letter-spacing: 1px;
+}
+.menu li a {
+	text-decoration: none;
+	color:black;
+}
+.menu li.active {
+	font-weight:bold;
+	border-bottom:2px solid black;
+}
+.box {
+	width:300px;
+	padding-bottom:7px;
+}
+.box img {
+	width:100%;
+}
+.row .box:first-child {
+	padding-right:7px;
+}
+.row .box:last-child {
+	padding-left:7px;
+}
+.work .row.project {
+	padding-top:75px;
+	padding-bottom:75px;
+}
+.desc {
+	margin:25px 0;	
+}
+.offwhite {
+	background-color:#f3f3f3;
+}
+.info p {
+	margin:10px 0;
+}
+footer p {
+	text-align:center;
+	color:#dcdcdc;
+	padding:40px 0;
+}
+footer p a {
+	color:#dcdcdc;
+}
+.note {
+	padding-top:40px;
+}
+.note h4 {
+	letter-spacing:1px;
+}
+.contact {
+	min-height:300px;
+}

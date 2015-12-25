@@ -1,0 +1,31 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html, body, .content {
+	height:100%;
+}
+body {
+	font-family: 'Merriweather', serif;
+}
+.content {
+	width:100%;
+	margin:0 auto;
+}
+.header h1 {
+  color: white;
+  font-size: 4em;
+  padding: 20px;
+  font-weight: 100;
+}
+
+.header {
+	height:100%;
+	background-image:url('../img/dad.jpg');
+	background-size:cover;
+	background-position:center;
+}
+.box img {
+	width:100%;
+}
